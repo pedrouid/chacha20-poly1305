@@ -1,0 +1,21 @@
+{
+  "name": "chacha20-poly1305",
+  "version": "1.0.0",
+  "description": "Encrypting with chacha20-poly1305",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@stablelib/chacha20poly1305": "^1.0.1",
+    "@stablelib/hkdf": "^1.0.1",
+    "@stablelib/sha256": "^1.0.1",
+    "@stablelib/x25519": "^1.0.2",
+    "@walletconnect/encoding": "^1.0.1",
+    "@walletconnect/randombytes": "^1.0.2",
+    "uint8arrays": "^3.0.0"
+  }
+}
